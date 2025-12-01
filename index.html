@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volton - Generador de CRUD Moderno</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="assets/img/logo_pestana.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <!-- Logo para escritorio (se mostrará en pantallas grandes) -->
+                        <img src="assets/img/Logo_Dark_sinfondo.png" alt="Volton Logo" class="logo-desktop"
+                            style="height: 60px; width: auto;">
+                        <!-- Logo para móvil (se mostrará en pantallas pequeñas) -->
+                        <img src="assets/img/logo_pestana.png" alt="Volton Logo" class="logo-mobile"
+                            style="height: 40px; width: auto;">
+                    </a>
+                </div>
+
+                <!-- Botón de menú hamburguesa para móviles -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#features">Características</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#pricing">Precios</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <button class="cta-button">Comenzar gratis</button>
+            </nav>
+
+
+            <!-- Menú móvil desplegable -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#features">
+                    <i class="fas fa-star"></i>
+                    Características
+                </a>
+                <a href="#demo">
+                    <i class="fas fa-play-circle"></i>
+                    Demo
+                </a>
+                <a href="#pricing">
+                    <i class="fas fa-tags"></i>
+                    Precios
+                </a>
+                <a href="#contact">
+                    <i class="fas fa-envelope"></i>
+                    Contacto
+                </a>
+                <button class="cta-button mobile-cta">
+                    <i class="fas fa-rocket"></i>
+                    Comenzar gratis
+                </button>
+            </div>
+
+            <!-- Overlay para cerrar menú -->
+            <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate">Genera <span>CRUD</span> en segundos<br>con <span>Volton</span></h1>
+            <p class="animate delay-1">La plataforma más rápida y moderna para crear interfaces CRUD profesionales sin
+                escribir código. Diseñado para desarrolladores y equipos ágiles.</p>
+            <div class="hero-buttons animate delay-2">
+                <button class="cta-button">
+                    <i class="fas fa-play-circle"></i> Ver demostración
+                </button>
+                <button class="secondary-button">
+                    <i class="fas fa-download"></i> Descargar ahora
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Por qué elegir Volton</h2>
+                <p>Características diseñadas para acelerar tu desarrollo y mejorar la calidad de tu software</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Generación Instantánea</h3>
+                    <p>Crea interfaces CRUD completas en segundos. Solo define tu modelo de datos y Volton hace el
+                        resto.</p>
+                </div>
+                <div class="feature-card animate delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Código Limpio</h3>
+                    <p>Genera código limpio, optimizado y listo para producción con las mejores prácticas de desarrollo.
+                    </p>
+                </div>
+                <div class="feature-card animate delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Diseño Personalizable</h3>
+                    <p>Interfaz moderna con componentes totalmente personalizables según tus necesidades de marca.</p>
+                </div>
+                <div class="feature-card animate delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Integrada</h3>
+                    <p>Validaciones, sanitización y protección contra ataques XSS y SQL Injection incluidas por defecto.
+                    </p>
+                </div>
+                <div class="feature-card animate delay-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Integración API</h3>
+                    <p>Conecta fácilmente con tus APIs REST existentes o genera nuevas con un solo clic.</p>
+                </div>
+                <div class="feature-card animate delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Completo</h3>
+                    <p>Interfaces que funcionan perfectamente en cualquier dispositivo, desde móviles hasta escritorios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-title">
+                <h2>Demostración en Vivo</h2>
+                <p>Ve cómo Volton transforma un simple modelo de datos en una interfaz CRUD completa</p>
+            </div>
+            <div class="mockup animate">
+                <div class="mockup-header">
+                    <div class="dot dot-red"></div>
+                    <div class="dot dot-yellow"></div>
+                    <div class="dot dot-green"></div>
+                    <span style="color: var(--text-gray); margin-left: 15px;">volton-cli</span>
+                </div>
+                <div class="mockup-content">
+                    <div class="terminal">
+                        <div class="command">$ volton generate --model Product</div>
+                        <div class="output">✓ Modelo 'Product' detectado</div>
+                        <div class="output">✓ Generando componentes UI...</div>
+                        <div class="output">✓ Creando servicios REST...</div>
+                        <div class="output">✓ Configurando rutas y validaciones...</div>
+                        <div class="output">✓ Optimizando para producción...</div>
+                        <div class="output" style="color: var(--accent-color);">✓ ¡CRUD generado exitosamente! (2.3s)
+                        </div>
+                        <div class="output">&nbsp;</div>
+                        <div class="output">Archivos generados:</div>
+                        <div class="output">- src/components/ProductList.jsx</div>
+                        <div class="output">- src/components/ProductForm.jsx</div>
+                        <div class="output">- src/services/productService.js</div>
+                        <div class="output">- src/api/productRoutes.js</div>
+                        <div class="command">$ cd src &amp;&amp; volton run</div>
+                        <div class="output" style="color: var(--accent-color);">✓ Aplicación ejecutándose en
+                            http://localhost:3000</div>
+                    </div>
+                </div>
+            </div>
+            <button class="cta-button animate delay-2">
+                <i class="fas fa-video"></i> Ver tutorial completo
+            </button>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="pricing">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para transformar tu flujo de trabajo?</h2>
+                <p>Únete a miles de desarrolladores que ya utilizan Volton para acelerar su desarrollo y entregar
+                    software de calidad superior en menos tiempo.</p>
+                <button class="cta-button">
+                    <i class="fas fa-rocket"></i> Comenzar ahora - Prueba gratuita de 14 días
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <div class="logo-icon">V</div>
+                        <div class="logo-text">Volton</div>
+                    </div>
+                    <p style="color: var(--text-gray); margin-top: 20px; line-height: 1.6;">
+                        La plataforma definitiva para generar interfaces CRUD profesionales en minutos, no en días.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Producto</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Características</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Actualizaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Recursos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guías</a></li>
+                        <li><a href="#">Soporte</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope" style="margin-right: 10px; color: var(--accent-color);"></i>
+                            hola@volton.dev</li>
+                        <li><i class="fas fa-phone" style="margin-right: 10px; color: var(--accent-color);"></i> +52 55
+                            1234 5678</li>
+                        <li><i class="fas fa-map-marker-alt"
+                                style="margin-right: 10px; color: var(--accent-color);"></i> Ciudad de México, México
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Volton. Todos los derechos reservados. Diseñado con ❤️ para desarrolladores.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
