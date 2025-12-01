@@ -39,7 +39,6 @@ Ideal para:
 ✔ **Seguridad integrada** (XSS / SQL Injection)  
 ✔ **Integración con APIs REST**  
 ✔ **Modo CLI simulado**  
-✔ **Compatible con PHP, Node, Laravel y más**  
 
 ---
 
@@ -61,8 +60,4 @@ Ideal para:
 
 ---
 
-## 🛠️ Cómo usarlo
 
-### 1️⃣ Clonar el repositorio
-```bash
-git clone https://github.com/DevTheyanko/VOLTON.git
