@@ -1,6 +1,6 @@
 <!-- Banner principal -->
 <p align="center">
-  <img src="ruta/de/tu/imagen.png" alt="Volton Banner" width="100%" />
+  <img src="https://github.com/DevTheyanko/VOLTON/blob/main/assets/img/Logo_Dark_Banner.png" alt="Volton Banner" width="100%" />
 </p>
 
 <h1 align="center">⚡ VOLTON – Generador de CRUD Moderno</h1>
