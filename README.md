@@ -17,10 +17,11 @@
 
 ---
 
-## 🚀 **¿Qué es Volton?**
-Volton es una herramienta diseñada para permitir a desarrolladores crear interfaces CRUD modernas, limpias y funcionales **sin necesidad de escribir código repetitivo**.
+## 🚀 ¿Qué es Volton?
+**Volton** es una herramienta diseñada para permitir a desarrolladores crear interfaces CRUD modernas, limpias y funcionales **sin necesidad de escribir código repetitivo**.
 
 Ideal para:
+
 - Sistemas administrativos  
 - Paneles de control  
 - Dashboards y apps internas  
@@ -29,7 +30,8 @@ Ideal para:
 
 ---
 
-## ✨ **Características Principales**
+## ✨ Características Principales
+
 ✔ **Generación instantánea** de interfaces CRUD  
 ✔ **Diseño moderno y profesional**  
 ✔ **Código limpio y escalable**  
@@ -37,62 +39,30 @@ Ideal para:
 ✔ **Seguridad integrada** (XSS / SQL Injection)  
 ✔ **Integración con APIs REST**  
 ✔ **Modo CLI simulado**  
-✔ **Compatible con proyectos PHP, JS, Node, Laravel, etc.**
+✔ **Compatible con PHP, Node, Laravel y más**  
 
 ---
 
-## 🖥️ **Vista previa**
+## 🖥️ Vista previa
 <p align="center">
-  <img src="ruta/de/tu/imagen.png" alt="Vista previa de Volton" width="85%">
+  <img src="https://github.com/DevTheyanko/VOLTON/blob/main/assets/img/Logo_Dark_Banner.png" alt="Vista previa de Volton" width="85%">
 </p>
 
 ---
 
-## 📂 **Estructura del Proyecto**
+## 🔥 Tecnologías utilizadas
+
+- **HTML5**  
+- **CSS3 + Animaciones**  
+- **JavaScript Vanilla**  
+- **FontAwesome**  
+- **Google Fonts**  
+- **Diseño Responsive**  
+
+---
+
+## 🛠️ Cómo usarlo
+
+### 1️⃣ Clonar el repositorio
 ```bash
-/
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   └── img/
-│       └── Logo_Dark_sinfondo.png
-├── index.html
-└── README.md
-🔥 Tecnologías utilizadas
-HTML5
-
-CSS3 + Animaciones
-
-JavaScript
-
-FontAwesome
-
-Google Fonts
-
-Diseño Responsive
-
-🛠️ Cómo usarlo
-Clona el repositorio:
-
-bash
-Copiar código
-git clone https://github.com/tuusuario/tu-repositorio.git
-Abre el archivo:
-
-bash
-Copiar código
-index.html
-Personaliza estilos e imágenes a tu gusto.
-
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas!
-Puedes abrir un Issue o enviar un Pull Request.
-
-📞 Contacto
-Email: hola@volton.dev
-YouTube: /VoltonDev
-GitHub: @tuusuario
-
-<p align="center"> © 2025 VOLTON – Desarrollado con ❤️ para programadores </p> ```
+git clone https://github.com/DevTheyanko/VOLTON.git
